@@ -1,0 +1,76 @@
+/* html, body{ margin: 0; padding-top: 5px;} */
+body {
+  height: 100vh;
+  /*background-color: #002E58;*/
+  background-image: linear-gradient(to right, #002E58 70%, #fff 30%);
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 1vw;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+.photo {
+    max-width: 50px;
+    border-radius: 50%;
+    border: 0.5px solid white;
+}
+.name {
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    padding: 8px 8px;
+}
+
+.menu-li {
+    list-style-type: none;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* Section styles */
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 48vw;
+}
+
+.photo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about {
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 50px;
+}
+.destaque {
+    color: #00A3FF;
+    font-weight: bold;
+}
+
+.tecnologias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
